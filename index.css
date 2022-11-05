@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: aliceblue;
+    font-size: 25px;
+    display: flex
+}
+span{
+    color: red;
+}
+.container{
+    height: 300px;
+    width: 800px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(200, 199, 199);
+}
+.agelabel{
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.height{
+    margin-right: 14px;
+}
+label{
+    margin-top: 20px;
+    margin-left:  10px;
+    margin-right: 10px;
+}
+#age{
+    height: 25px;
+    width: 200px;
+}
+#weight{
+    height: 25px;
+    width: 400px;
+}
+#height{
+    height: 25px;
+    width: 400px;
+}
+#submit{
+    height: 50px;
+    width: 170px;
+    background-color: darkgreen;
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+}
+#reset{
+    height: 50px;
+    width: 90px;
+    background-color: rgb(160, 159, 159);
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.button{
+    margin-left: 98px;
+}
+#result{
+    margin-top: 200px;
+}
